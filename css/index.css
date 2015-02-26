@@ -76,7 +76,10 @@ body{
 	margin-bottom: 95px;
 }
 
-
+.container .dektopConnectNow{
+	background-color : #E91E63;
+	overflow: hidden;
+}
 .container .desktopContainer .dektopConnectNow button{
 	position : relative;
 	left : 75px;
