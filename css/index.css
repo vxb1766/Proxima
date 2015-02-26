@@ -26,7 +26,17 @@ body{
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.col{
+	padding: 0px;
+}
+.col-md-12{
+		padding-left: 0px;
+	padding-right: 0px;
+}
 
+.holder .col-xs-12 .col-md-3 .desktopContainer{
+	margin-left:115px;
+}
 .container .desktopContainer{
 	color: white;
 	position: relative;
@@ -119,8 +129,8 @@ body{
 	border-radius: 20px;
 	background-color: #ccc;
 	clear : both;
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .mobileContainer .jumbotron h3{
