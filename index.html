@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="utf-8">
+	<title>Challenge</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+
+	<div class="container"><!-- Start Of Main Div Container -->
+		<div class="row">
+			<div class="desktopContainer"><!-- Start Of DesktopContainer Div Container -->
+				
+				<!-- Start Of DesktopContainer Header-->
+				<div class="desktopHeader">
+					<h3>Choose your Culture</h3>
+				</div>
+				<!-- End Of DesktopContainer Header-->
+
+
+				<!-- Start Of DesktopContainer Body -->
+				<div class="dektopBody"><p>You have been selected to help us identify great additions to the Fitness First World Culture.</p><p>Click Connect to help us understand whether you can provide us insight to the individuals we are looking to hire.</p>
+				</div>
+				<!-- End Of DesktopContainer Body -->
+
+				<!-- Start Of DesktopContainer Footer -->
+				<div class="dektopFooter">
+					<p>It's in your hands.</p>
+				</div>
+				<!-- End Of DesktopContainer Footer -->
+
+				<!-- Start Of DesktopContainer dektopConnectNow -->
+				<div class="dektopConnectNow">
+					<button class= "btn btn-default btn-md">
+						<i class="icon-facebook-sign icon-3x" style="border 1px solid black;"></i>
+						<span align="center;" style="border 1px solid black;">CONNECT NOW</span>
+					</button>
+				</div>
+				<!-- End Of DesktopContainer dektopConnectNow -->
+
+				<!-- Start Of DesktopContainer dektopImages -->
+				<div class="dektopImages">
+					<img src="http://api.randomuser.me/portraits/women/49.jpg" alt="Scott Stevens" class="circular" />
+					<span class="pixels">aaai</span>
+					<img src="http://api.randomuser.me/portraits/men/50.jpg" alt="Scott Stevens" class="circular" />
+					<span class="pixels">aaai</span>
+					<img src="http://api.randomuser.me/portraits/women/49.jpg" alt="Scott Stevens" class="circular" />
+					<span class="pixels">aaai</span>
+					<img src="http://api.randomuser.me/portraits/men/51.jpg" alt="Scott Stevens" class="circular" />
+					<span class="pixels">aaai</span>
+					<img src="http://api.randomuser.me/portraits/men/52.jpg" alt="Scott Stevens" class="circular" />
+				</div>
+				<!-- End Of DesktopContainer dektopImages -->
+			</div>
+			<!-- End Of DesktopContainer -->
+
+			
+			<!-- Start of Mobile Container -->
+			<div class="mobileContainer">
+				<!-- Start of Jumbotron -->
+				<div class="jumbotron">
+					<h3>Do you think he would be a good fit for <strong>Fitness First</strong> ?</h3>
+
+					<!-- Start of contactCard -->
+					<div class="contactCard">
+						<!-- Start of Row1 -->
+						<div class="row">
+
+							<!-- Start of cardImage -->
+							<div class="cardImage col-md-3">
+								<img src="http://api.randomuser.me/portraits/men/52.jpg" alt="Scott Stevens" class="regtangular" />
+							</div>
+							<!-- end of cardImage -->
+
+							<!-- Start of cardDetails -->
+							<div class="cardDetails col-md-8">
+								<div class="row col-md-6"><label class="blackText">Kerem Seur</label></div>
+								<div class="row col-md-6"><label class="greyText">UX Designer</label></div>
+								<div class="row col-md-6"><label class="blueText">Salesforce, BOX</label></div>
+							</div>
+							<!-- End of cardDetails -->
+						</div>
+						<!-- End of Row 1 -->
+
+						<!-- Start of Row 2 & cardButtons -->
+						<div class="row cardButtons" >
+							<a href="#" class="btn btn-sm btn-hover btn-success"><span class="glyphicon glyphicon-thumbs-up"></span><span>Yes</span></a>
+							<a href="#" class="btn btn-sm btn-hover btn-danger"><span class="glyphicon glyphicon-thumbs-down"></span><span>No</span></a>
+							<a href="#" class="btn btn-sm btn-hover btn-warning"><span>I Dont Know Him</span></a>
+							
+						</div><!-- End of Row 2  & card Buttons-->
+					</div><!-- End of ContactCard -->
+				</div><!-- End Of Jumbotron -->
+			</div><!-- End Of Mobile Container -->
+		</div><!-- End Of Row -->
+	</div><!-- End of Main Container -->
+
+
+	<script src="js/jquery-1.8.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Note: Since this was the only jQuery I used, I dint write into separate js folder -->
+	<script>
+		$("document").ready(function(){
+			$(".mobileContainer")[0].clientHeight = $(".desktopContainer")[0].clientHeight+20;
+			/*THis ensure's the mobile height is always 20 pixels greater than desktop*/
+		});
+	</script>
+</body>
+</html>

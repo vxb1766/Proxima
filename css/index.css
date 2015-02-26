@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url("../fonts/ProximaNova-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url("../fonts/ProximaNova-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Semibold';
+	src: url("../fonts/ProximaNovaCond-Semibold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'ProximaNova-RegularItalic';
+	src: url("../fonts/ProximaNova-RegularItalic.otf") format("opentype");
+}
+
+body{
+	margin: 20px;
+}
+
+.container{
+	background-color: #3F51B5;
+	width : 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.container .desktopContainer{
+	color: white;
+	position: relative;
+	margin-left : 115px;
+	margin-top: 65px;
+	background-color : #E91E63;
+	float : left;
+	width : 35%;
+	margin-bottom : 95px;
+	margin-right: 215px;
+}
+
+.container .desktopContainer .desktopHeader h3{
+	font-size: 35px;
+	font-family: 'ProximaNova-Bold';
+	margin-bottom: 55px;
+}
+
+.container .desktopContainer .dektopBody{
+	font-family: 'ProximaNova-Regular';
+	margin-bottom: 55px;
+}
+
+.container .desktopContainer .desktopFooter{
+	margin-bottom: 20px;
+}
+
+.container .desktopContainer .dektopFooter p{
+	font-size: 20px;
+	font-family: 'ProximaNovaCond-Semibold';
+	text-align: center;
+}
+
+
+.container .desktopContainer .dektopImages{
+	width : 100%;
+	margin-bottom: 95px;
+}
+
+
+.container .desktopContainer .dektopConnectNow button{
+	position : relative;
+	left : 75px;
+	margin-bottom: 90px;
+	color : #3B5998;
+	padding-right : 25px;
+}
+
+.container .desktopContainer .dektopConnectNow button span{
+	font-size: 20px;
+	position : relative;
+	top : -10px;
+	margin-left: 10px;
+	padding-right: 30px;
+
+}
+
+
+.container .desktopContainer .dektopImages .circular{
+	display: inline-block;
+	border: 0px;
+	margin : 0px;
+	width : 62px;
+	height : 62px;
+	border-radius: 31px;
+	-webkit-border-radius: 31px;
+	-moz-border-radius: 31px;
+}
+
+.container .desktopContainer .dektopImages .pixels{
+	left : 0px;
+	width : 32px;
+	visibility : hidden;
+	color : green;
+}
+
+/*Mobile POrtion*/
+	
+.mobileContainer{
+	background-color: #ccc;
+	border-radius:20px;
+	height: 100%;
+	margin-top: 65px;
+	margin-right:115px;
+	float : left;
+	width : 31%;
+	height : 620px;
+	}
+.mobileContainer .jumbotron {
+	border-radius: 20px;
+	background-color: #ccc;
+	clear : both;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.mobileContainer .jumbotron h3{
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+}
+
+.mobileContainer .jumbotron .contactCard{
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding : 10px;
+	border-radius : 10px;
+}
+
+
+
+.mobileContainer .jumbotron .cardDetails{
+	float : right;
+	padding-right: 0px;
+}
+
+.mobileContainer .jumbotron .cardDetails div{
+	clear : both;
+}
+
+.mobileContainer .jumbotron .cardDetails .greyText {
+color : #ccc;
+}
+.mobileContainer .jumbotron .cardDetails .blueText {
+color : #00BCD4;
+}
+.mobileContainer .jumbotron .cardImage { padding : 5px;margin-bottom: 15px;}
+.mobileContainer .jumbotron .cardImage img{
+	width : 80px;
+	height : 80px;
+	position : relative;
+	top : 50%;
+
+}
+.mobileContainer .jumbotron .cardDetails .col-md-6{float : left;width: 100%;}
+/*We Need to override this as col-md-6 width = 33%*/
+/*But you need 100% of the parent.*/
+
+/*Override unnecessary bootstrap css*/
+.row{
+	margin : 0px;
+}
+
+
+.mobileContainer .jumbotron .cardButtons{
+	padding : 5px;
+	padding-bottom: 20px;
+}
